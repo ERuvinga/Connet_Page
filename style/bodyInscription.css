@@ -1,0 +1,114 @@
+/*la feuille de style pour la page d'inscription*/
+
+
+body {
+    position: absolute;
+    width: 100%;
+}
+
+@font-face {
+    font-family: MonFont;
+    src: url("Mont.ttf");
+}
+
+* {
+    font-family: monFont;
+}
+
+.from_box {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    margin: 10% auto;
+    padding: 8px;
+    background-color: white;
+    box-shadow: #06133a 0px 0px 40px;
+    overflow: hidden;
+}
+
+.button_box {
+    position: relative;
+    width: 65%;
+    margin: 5% auto;
+    box-shadow: #06133a 0px 0px 20px;
+    border-radius: 30px;
+}
+
+.center {
+    width: 95%;
+    margin: auto
+}
+
+#btn_login,
+#btn_singup {
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    outline: none;
+    background-color: transparent;
+}
+
+#btn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, #06133a, #dbdde5);
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+/*les champs de saisi*/
+
+#login,
+#singup {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    width: 90%;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+#singup {
+    left: 420px;
+}
+
+.champ_form {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border: none;
+    border-bottom: #06133a solid 1px;
+    outline: none;
+    background-color: transparent;
+}
+
+.init_pwd {
+    margin: 10px 0px;
+    font-size: .8em;
+    text-align: end;
+}
+
+.init_pwd a {
+    text-decoration: none;
+    color: #06133a;
+}
+
+.init_pwd a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submit_btn {
+    width: 85%;
+    margin: 15px auto;
+    padding: 10px 30px;
+    display: block;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #06133a, #dbdde5);
+    border: none;
+    border-radius: 30px;
+}

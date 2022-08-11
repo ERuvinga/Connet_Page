@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CresTrackingColis</title>
+
+    <!-- inclusion des fichiers CSS-->
+
+    <link href="style/bodyInscription.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="from_box">
+        <div class="button_box">
+            <div class="center">
+                <div id="btn" class="gauche_btn"></div>
+                <button id="btn_login">Login</button>
+                <button id="btn_singup">Singup</button>
+            </div>
+        </div>
+        <form action="#" id="login">
+            <input type="text" name="Name_user" placeholder="Nom utilisateur" class="champ_form" required />
+            <input type="text" name="psWord" placeholder="Mot de passe" class="champ_form" required />
+            <div class="init_pwd"><a href="#">Mot de pass oublier ?</a></div>
+            <input type="submit" name="BtEnvoi" value="Envoyez" class="submit_btn" />
+        </form>
+
+        <form action="#" id="singup">
+            <input type="email" name="mail" placeholder="Adresse mail" class="champ_form" required />
+            <input type="text" name="Name_user" placeholder="Nom utilisateur" class="champ_form" required />
+            <input type="text" name="psWord" placeholder="Mot de passe" class="champ_form" required />
+            <input type="submit" name="BtEnvoi" value="Envoyez" class="submit_btn" />
+        </form>
+    </div>
+
+</body>
+<!-- inclusion des fichiers js-->
+<script src="style/dep.js">    </script>
+
+</html>
